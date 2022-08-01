@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+/* Resolucion desktop */
+    /* Parte naranja */
+header{
+    display: flex;
+}
+article, div{
+    margin: 5px;
+}
+.naranja{
+    width: 50%;
+    height: 80px;
+    background-color: orange;
+}
+    /* Parte amarilla */
+.grande{
+    width: 98,5%;
+    height: 200px;
+    background-color: yellow;
+}
+    /* Parte azul */
+#azul{
+    display: flex;
+}
+.mediano{
+    width: 33%;
+    height: 150px;
+    background-color: blue;
+}
+    /* Parte gris */
+#gris{
+    display: flex;
+}
+.peque{
+    width: 25%;
+    height: 100px;
+    background-color: grey;
+}
+
+
+
+/* RESOLUCION TABLET */
+@media all and (max-width:768px){
+    article, div{
+        margin: 5px 0px 5px 5px;
+    }
+    header{
+        display: initial;
+    }
+    .naranja{
+        width:100%;
+        height: 60px;
+    }
+        /* Parte amarilla */
+    .grande{
+        width: 98,5%;
+        height: 160px;
+    }
+        /* Parte azul */
+    #azul{
+        display: initial;
+    }
+    .mediano{
+        width: 100%;
+        height: 100px;
+    }
+        /* Parte gris */
+    #gris{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .peque{
+        width: calc(50% - 5px);
+        height: 80px;
+    }
+}
+
+
+
+/* RESOLUCION MOVIL */
+@media all and (max-width:320px){
+    article, div{
+        margin: 5px 0px 5px 5px;
+    }
+    header{
+        display: initial;
+    }
+    .naranja{
+        width:100%;
+        height: 60px;
+    }
+        /* Parte amarilla */
+    .grande{
+        width: 98,5%;
+        height: 100px;
+    }
+        /* Parte azul */
+    #azul{
+        display: initial;
+    }
+    .mediano{
+        width: 100%;
+        height: 200px;
+    }
+        /* Parte gris */
+    #gris{
+        display: initial;
+    }
+    .peque{
+        width: 100%;
+        height: 60px;
+    }
+}
