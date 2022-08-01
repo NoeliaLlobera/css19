@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
 }
-/* Resolucion desktop */
+/* RESOLUCIÓN DESKTOP */
     /* Parte naranja */
 header{
     display: flex;
@@ -40,8 +40,6 @@ article, div{
     background-color: grey;
 }
 
-
-
 /* RESOLUCION TABLET */
 @media all and (max-width:768px){
     article, div{
@@ -77,8 +75,6 @@ article, div{
         height: 80px;
     }
 }
-
-
 
 /* RESOLUCION MOVIL */
 @media all and (max-width:320px){
